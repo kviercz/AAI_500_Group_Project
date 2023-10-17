@@ -27,4 +27,3 @@ r2 = r2_score(y_test, y_pred)
 
 print("Mean Squared Error:", mse)
 print("R-squared (R2) Score:", r2)
-print("Adjusted R-Squared Score:", adjusted_r_squared)
