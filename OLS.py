@@ -13,7 +13,7 @@ X = df[['volatile acidity', 'residual sugar', 'alcohol', 'pH']]
 # Define dependent vars
 y = df['quality']
 
-# Add a constant term (intercept) to the predictor variables
+# Add a constant term (intercept)
 X = sm.add_constant(X)
 
 # Fit the OLS model
